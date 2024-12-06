@@ -1,2 +1,7 @@
+# Note: FFmpeg is required for audio/video processing. Install it separately from your system's package manager.
+# Windows: Download from https://ffmpeg.org/download.html
+# Linux: sudo apt-get install ffmpeg
+# macOS: brew install ffmpeg
+
 yt-dlp>=2023.3.4
 tk>=0.1.0

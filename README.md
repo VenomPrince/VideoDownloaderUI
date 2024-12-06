@@ -14,12 +14,17 @@ A simple GUI application for downloading videos and audio from various platforms
 ## Requirements
 
 - Python 3.6 or higher
+- FFmpeg (required for audio/video processing)
 - Required packages listed in requirements.txt
 
 ## Installation
 
 1. Clone or download this repository
-2. Install required packages:
+2. Install FFmpeg:
+   - Windows: Download from [FFmpeg official site](https://ffmpeg.org/download.html) and add to PATH
+   - Linux: `sudo apt-get install ffmpeg`
+   - macOS: `brew install ffmpeg`
+3. Install required packages:
    ```
    pip install -r requirements.txt
    ```
